@@ -11641,7 +11641,7 @@ body {
 
 .contact-section {
     padding-top: 5rem;
-    background: linear-gradient(to top, #f4a50a 0%, #FFF 35%, #f4a50a 100%);
+    background: linear-gradient(to top, #f4a50a 0%, #f4a50a 100%);
 }
 
 .contact-section .card {
@@ -11931,4 +11931,8 @@ body {
     visibility: hidden;
     transform: translateY(-100%);
     transition: all .3s 1s ease-out;
+}
+
+body {
+    overflow-x: hidden;
 }
