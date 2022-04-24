@@ -11936,3 +11936,11 @@ body {
 body {
     overflow-x: hidden;
 }
+
+.projCard:hover {
+    transform: scale(1.06);
+}
+
+.projCard {
+    transition: all 1s;
+}
