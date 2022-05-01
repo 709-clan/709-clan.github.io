@@ -105,6 +105,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
   //     $(".video-js").delay("500").trigger("play");
   //   });
 
+  //done
+
   $(".modal").on("hidden.bs.modal", function () {
     $(".video-js").trigger("pause");
     $(".vjs-tech").trigger("pause");
