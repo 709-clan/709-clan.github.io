@@ -11944,3 +11944,9 @@ body {
 .projCard {
     transition: all 1s;
 }
+
+.col-xl-8.col-lg-7.projCard.order-1::after, .col-xl-8.col-lg-7.projCard.order-2::after {
+    text-align: center;
+    display: block;
+    content: '[Click To View]';
+}
