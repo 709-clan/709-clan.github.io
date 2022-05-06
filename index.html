@@ -23,6 +23,16 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script
+  type="module"
+  src="https://cdn.jsdelivr.net/npm/@vidstack/player@next/dist-cdn/define/vds-media.js"
+></script>
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/npm/@vidstack/player@next/dist-cdn/define/vds-video.js"
+></script>
+
 </head>
 
 <body id="page-top">
@@ -58,13 +68,14 @@
                     <br><br><br><br>
                     <h1 class="mx-auto my-0 py-5 text-wrap" style="padding-bottom: 9%!important;color:#4C4E50!important;"><text class="py-5" id="alyHeader" font="Angelova-Script">Aliyah</text><text font="Loretto" class="text-uppercase">Younus</text>
                     </h1>
-                    <h2 class=" mx-auto mt-2 mb-5 text-wrap .text-break" id="description">Presentation Designer • Content Writer • Certified Project Manager</h2>
+                    <h2 class=" mx-auto mt-2 mb-5 text-wrap .text-break" id="description">Presentation Designer • Content Writer <br> Certified Project Manager</h2>
                     <!-- <a class="btn btn-primary" href="#about">Get Started</a> -->
                 </div>
             </div>
         </div>
     </header>
     <!-- About-->
+    
     <section class="about-section text-center" id="about">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -79,13 +90,297 @@
             </div>
         </div>
     </section>
+
     <!-- Projects-->
+    <section class="container" style="background-color:#F8F9FA;">
+        <video class="card-img w-100 d-block" controls poster="./assets/vid/designTrailer.png">
+            <source src="./assets/vid/designTrailer.mp4" type="audio/mp4">
+            </source>
+        </video>
+        
+    </section>
     <section id="projectSection">
         <!-- Dynamic load by Jquery ./sections/projects.html -->
     </section>
-    <section id="modalSection">
-        <!-- Dynamic load by Jquery ./sections/projects.html -->
-    </section>
+    <!-- <section id="modalSection">
+         Dynamic load by Jquery ./sections/projects.html 
+    </section> -->
+<section>
+    <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+
+
+
+<div class="modal fade" id="ikaraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ikara</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/ikara.png" data-setup='{ "fluid": true }'>
+                <source src="./assets/vid/ikara.mp4" type="video/mp4" />
+                <source src="./assets/vid/ikara.mp4" type="video/mp4" />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript,
+                    and consider upgrading to a
+                    web browser that
+                    <a
+                        href="https://videojs.com/html5-video-support/"
+                        target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="infinitiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Vivid Colors</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/Infiniti.png" data-setup='{ "fluid": true }'>
+                <source src="./assets/vid/infiniti.mp4" type="video/mp4" />
+                <source src="./assets/vid/infiniti.mp4" type="video/mp4" />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript,
+                    and consider upgrading to a
+                    web browser that
+                    <a
+                        href="https://videojs.com/html5-video-support/"
+                        target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="cityscapeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Vivid Colors</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/Cityscape.png" data-setup='{ "fluid": true }'>
+                <source src="./assets/vid/cityscape.mp4" type="video/mp4" />
+                <source src="./assets/vid/cityscape.mp4" type="video/mp4" />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript,
+                    and consider upgrading to a
+                    web browser that
+                    <a
+                        href="https://videojs.com/html5-video-support/"
+                        target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="treeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Quality Graphics</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/tree.png" data-setup='{ "fluid": true }'>
+                <source src="./assets/vid/tree.mp4" type="video/mp4" />
+                <source src="./assets/vid/tree.mp4" type="video/mp4" />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript,
+                    and consider upgrading to a
+                    web browser that
+                    <a
+                        href="https://videojs.com/html5-video-support/"
+                        target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="greenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Stylized Fonts
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/Inspired.png" data-setup='{ "fluid": true }'>
+              <source src="./assets/vid/green.mp4" type="video/mp4" />
+              <source src="./assets/vid/green.mp4" type="video/mp4" />
+              <p class="vjs-no-js">
+                  To view this video please enable JavaScript,
+                  and consider upgrading to a
+                  web browser that
+                  <a
+                      href="https://videojs.com/html5-video-support/"
+                      target="_blank">supports HTML5 video</a>
+              </p>
+          </video>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="purpleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Inspired Style
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/stylized.png" data-setup='{ "fluid": true }'>
+              <source src="./assets/vid/purple.mp4" type="video/mp4" />
+              <source src="./assets/vid/purple.mp4" type="video/mp4" />
+              <p class="vjs-no-js">
+                  To view this video please enable JavaScript,
+                  and consider upgrading to a
+                  web browser that
+                  <a
+                      href="https://videojs.com/html5-video-support/"
+                      target="_blank">supports HTML5 video</a>
+              </p>
+          </video>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="animationsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Eye-Catching Animations
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/Animations.png" data-setup='{ "fluid": true }'>
+              <source src="./assets/vid/animations.mp4" type="video/mp4" />
+              <source src="./assets/vid/animations.mp4" type="video/mp4" />
+              <p class="vjs-no-js">
+                  To view this video please enable JavaScript,
+                  and consider upgrading to a
+                  web browser that
+                  <a
+                      href="https://videojs.com/html5-video-support/"
+                      target="_blank">supports HTML5 video</a>
+              </p>
+          </video>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+</section>
+
     <!-- Signup -->
     <!-- <section class="signup-section" id="signup">
         <div class="container px-4 px-lg-5">
@@ -186,6 +481,111 @@
 
     <!-- Jquery -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+    <style>
+        .btn {
+            font-size: 14px;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+        }
+        
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #316b9e;
+        }
+        
+        .vjs-theme-sea .vjs-big-play-button {
+            width: 103px;
+            height: 79px;
+            object-fit: contain;
+            background-color: rgba(255, 255, 255, 0.25);
+            border: none;
+            margin: 0 auto;
+            line-height: 79px;
+            top: 50%;
+            left: 50%;
+            border-radius: 30px;
+            margin-top: -51.5px;
+            margin-left: -39.5px;
+        }
+        
+        .vjs-theme-sea .vjs-control-bar {
+            height: 4em;
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+        
+        .vjs-theme-sea .vjs-button:hover {
+            color: #4176bc;
+            background: linear-gradient(to top, #070707, rgb(42, 141, 180));
+        }
+        
+        .vjs-theme-sea .vjs-button>.vjs-icon-placeholder::before {
+            line-height: 2.2;
+            background: rgba(14, 13, 13, 0.945);
+        }
+        
+        .vjs-theme-sea .vjs-time-control {
+            line-height: 4em;
+        }
+        
+        .vjs-theme-sea .vjs-volume-panel {
+            display: none;
+        }
+        
+        .vjs-theme-sea .vjs-picture-in-picture-control {
+            display: none;
+        }
+        
+        .vjs-theme-sea .vjs-progress-control .vjs-play-progress {
+            background-color: rgba(65, 118, 188, 0.9);
+        }
+        
+        .vjs-theme-sea .vjs-progress-control .vjs-play-progress:before {
+            display: none;
+        }
+        
+        .vjs-theme-sea .vjs-progress-control .vjs-slider {
+            background-color: rgba(65, 118, 188, 0.1);
+        }
+        
+        .vjs-theme-sea .vjs-progress-control .vjs-load-progress div {
+            background: rgba(255, 255, 255, 0.5);
+        }
+        
+        .vjs-theme-sea .vjs-progress-control .vjs-progress-holder {
+            margin: 0;
+            height: 100%;
+        }
+        
+        .vjs-theme-sea .vjs-progress-control .vjs-time-tooltip {
+            background-color: rgba(65, 118, 188, 0.5);
+            color: #fff;
+        }
+        
+        .vjs-theme-sea .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip {
+            background-color: rgba(88, 119, 145, 0.7);
+            color: #4176bc;
+        }
+    </style>
+    
 </body>
 
 </html>
