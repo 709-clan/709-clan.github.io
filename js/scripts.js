@@ -99,4 +99,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
       }
     }
   });
+
+  //   $(".modal").on("shown.bs.modal", function (e) {
+  //     // do something...
+  //     $(".video-js").delay("500").trigger("play");
+  //   });
+
+  $(".modal").on("hidden.bs.modal", function () {
+    $(".video-js").trigger("pause");
+    $(".vjs-tech").trigger("pause");
+  });
 });
