@@ -12963,9 +12963,9 @@ body {
         height: -webkit-fill-available !important;
     }
 
-    .modal {
+    /* .modal {
         padding-right: 300px !important;
-    }
+    } */
 }
 
 @media (max-width: 424px) {
@@ -13120,4 +13120,13 @@ body {
     display: block;
     content: '[Click To View]';
     color: #aaa7a7;
+}
+
+
+@media (min-width: 425px) {
+    @media (max-width: 575.98px) {
+        .modal {
+            padding-right: 0px !important;
+        }
+    }
 }
