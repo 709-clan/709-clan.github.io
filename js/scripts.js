@@ -56,7 +56,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   // On play vid
 
   window.addEventListener("load", function () {
-    setTimeout(myFunction, 1000);
+    setTimeout(myFunction, 0);
   });
 
   function myFunction() {
