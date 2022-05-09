@@ -55,9 +55,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   // On play vid
 
-  window.addEventListener("load", function () {
-    setTimeout(myFunction, 0);
-  });
+  // document.getElementsByTagName('body')[0].addEventListener("load", function () {
+  // });
+  setTimeout(myFunction, 000);
 
   function myFunction() {
     document.querySelector("body").classList.add("loaded");
