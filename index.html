@@ -61,7 +61,7 @@
         </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead">
+    <header class="masthead" loading="eager">
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center py-5">
@@ -92,8 +92,8 @@
     </section>
 
     <!-- Projects-->
-    <section class="container" style="background-color:#F8F9FA;">
-        <video class="card-img w-100 d-block" controls poster="./assets/vid/designTrailer.png">
+    <section loading="lazy" class="container" style="background-color:#F8F9FA;">
+        <video loading="lazy" class="card-img w-100 d-block" controls poster="./assets/vid/designTrailer.png">
             <source src="./assets/vid/designTrailer.mp4" type="audio/mp4">
             </source>
         </video>
@@ -110,7 +110,7 @@
 
 
 
-<div class="modal fade" id="ikaraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" loading="lazy" id="ikaraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog ">
         <div class="modal-content">
             <div class="modal-header">
@@ -118,7 +118,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/ikara.png" data-setup='{ "fluid": true }'>
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="false" loading="lazy" poster="./assets/img/ikara.png" data-setup='{ "fluid": true }'>
                 <source src="./assets/vid/ikara.mp4" type="video/mp4" />
                 <source src="./assets/vid/ikara.mp4" type="video/mp4" />
                 <p class="vjs-no-js">
@@ -147,7 +147,7 @@
 </div>
 </div>
 
-<div class="modal fade" id="infinitiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" loading="lazy" id="infinitiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog ">
         <div class="modal-content">
             <div class="modal-header">
@@ -155,7 +155,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/Infiniti.png" data-setup='{ "fluid": true }'>
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="false" loading="lazy" poster="./assets/img/Infiniti.png" data-setup='{ "fluid": true }'>
                 <source src="./assets/vid/infiniti.mp4" type="video/mp4" />
                 <source src="./assets/vid/infiniti.mp4" type="video/mp4" />
                 <p class="vjs-no-js">
@@ -185,7 +185,7 @@
 </div>
 </div>
 
-<div class="modal fade" id="cityscapeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" loading="lazy" id="cityscapeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog ">
         <div class="modal-content">
             <div class="modal-header">
@@ -193,7 +193,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/Cityscape.png" data-setup='{ "fluid": true }'>
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="false" loading="lazy" poster="./assets/img/Cityscape.png" data-setup='{ "fluid": true }'>
                 <source src="./assets/vid/cityscape.mp4" type="video/mp4" />
                 <source src="./assets/vid/cityscape.mp4" type="video/mp4" />
                 <p class="vjs-no-js">
@@ -222,7 +222,7 @@
 </div>
 </div>
 </div>
-<div class="modal fade" id="treeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" loading="lazy" id="treeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog ">
         <div class="modal-content">
             <div class="modal-header">
@@ -230,7 +230,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/tree.png" data-setup='{ "fluid": true }'>
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="false" loading="lazy" poster="./assets/img/tree.png" data-setup='{ "fluid": true }'>
                 <source src="./assets/vid/tree.mp4" type="video/mp4" />
                 <source src="./assets/vid/tree.mp4" type="video/mp4" />
                 <p class="vjs-no-js">
@@ -260,7 +260,7 @@
 </div>
 </div>
 
-<div class="modal fade" id="greenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" loading="lazy" id="greenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog ">
         <div class="modal-content">
             <div class="modal-header">
@@ -269,7 +269,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/Inspired.png" data-setup='{ "fluid": true }'>
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="false" loading="lazy" poster="./assets/img/Inspired.png" data-setup='{ "fluid": true }'>
               <source src="./assets/vid/green.mp4" type="video/mp4" />
               <source src="./assets/vid/green.mp4" type="video/mp4" />
               <p class="vjs-no-js">
@@ -298,7 +298,7 @@
 </div>
 </div>
 </div>
-<div class="modal fade" id="purpleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" loading="lazy" id="purpleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog ">
         <div class="modal-content">
             <div class="modal-header">
@@ -307,7 +307,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/stylized.png" data-setup='{ "fluid": true }'>
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="false" loading="lazy" poster="./assets/img/stylized.png" data-setup='{ "fluid": true }'>
               <source src="./assets/vid/purple.mp4" type="video/mp4" />
               <source src="./assets/vid/purple.mp4" type="video/mp4" />
               <p class="vjs-no-js">
@@ -336,7 +336,7 @@
 </div>
 </div>
 </div>
-<div class="modal fade" id="animationsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" loading="lazy" id="animationsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog ">
         <div class="modal-content">
             <div class="modal-header">
@@ -345,7 +345,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="auto" poster="./assets/img/Animations.png" data-setup='{ "fluid": true }'>
+                <video id="sea-video" class="video-js vjs-theme-sea" controls preload="false" loading="lazy" poster="./assets/img/Animations.png" data-setup='{ "fluid": true }'>
               <source src="./assets/vid/animations.mp4" type="video/mp4" />
               <source src="./assets/vid/animations.mp4" type="video/mp4" />
               <p class="vjs-no-js">
