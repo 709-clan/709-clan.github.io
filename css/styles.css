@@ -12901,7 +12901,8 @@ body {
     }
 
     #alyHeader {
-        font-size: 150%;
+        font-size: 250%;
+        line-height: 300px;
     }
 }
 
@@ -12923,8 +12924,8 @@ body {
 @media (min-width: 992px) {
     #description {
         position: relative;
-        left: 210px;
-        top: -74px;
+        left: 266px;
+        top: -146px;
     }
 }
 
