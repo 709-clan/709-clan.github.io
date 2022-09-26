@@ -12554,6 +12554,16 @@ fieldset:disabled .btn {
     font-family: "Loretto";
 }
 
+[font=Tangerine] {
+    font-family: 'Tangerine', cursive;
+
+}
+
+[font=Parisienne] {
+    font-family: 'Parisienne', cursive;
+
+
+}
 
 /* Checked above */
 
@@ -12913,7 +12923,7 @@ body {
 @media (min-width: 992px) {
     #description {
         position: relative;
-        left: 197px;
+        left: 210px;
         top: -74px;
     }
 }
